@@ -1,6 +1,6 @@
 # SaaS Prompt Builder
 
-[![Wavyr Logo](/public/images/wavyr-logo.svg)](https://wavyr.com)
+[![Prompt Builder](/public/images/PromptBuilder.png)]
 
 This repository is designed to help you build and customize AI prompts for various SaaS applications. It provides a structured way to create, store, and manage prompts that can be used to automate tasks, generate content, or guide AI interactions in your SaaS products.
 

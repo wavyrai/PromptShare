@@ -27,6 +27,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Novatrix } from "uvcanvas"
 import  LogoImage from "@/components/logoImage"
 import Image from "next/image"
+import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog"
 import { Command, CommandDialog, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem } from '@/components/ui/command'
@@ -135,9 +136,11 @@ export default function Home() {
               <span className="text-xs">⌘</span>K
             </kbd>
           </Button>
-          <Button
+          <Link
           variant="outline"
-          className="p-1">
+          className="p-1"
+          href="https://github.com/wavyrai/PromptShare">
+
             <div style={{ color: 'black' }}>
               <div className="h-4 w-4 ">
               <svg viewBox="0 0 438.549 438.549" >
@@ -149,7 +152,7 @@ export default function Home() {
               </div>
               </div>
           
-          </Button>
+          </Link>
           </div>
          
         </div>
