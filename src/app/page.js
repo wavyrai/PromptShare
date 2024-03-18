@@ -365,7 +365,7 @@ export default function Home() {
           
           </div>
           <CopyToClipboard
-            text={encodeURI(`http://localhost:3000/?role=${form.watch('role') || ''}&needs=${form.watch('needs') || ''}&tasks=${form.watch('tasks') || ''}&process=${form.watch('process') || ''}&exclusions=${form.watch('exclusions') || ''}&format=${form.watch('format') || ''}&example=${form.watch('example') || ''}`)}
+            text={encodeURI(`https://prompt.wavyr.com/?role=${form.watch('role') || ''}&needs=${form.watch('needs') || ''}&tasks=${form.watch('tasks') || ''}&process=${form.watch('process') || ''}&exclusions=${form.watch('exclusions') || ''}&format=${form.watch('format') || ''}&example=${form.watch('example') || ''}`)}
             onCopy={() => toast.success('Copied to clipboard')}
           >
                 <Button
