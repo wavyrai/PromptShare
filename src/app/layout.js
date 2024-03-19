@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'SaaS Prompt Builder', 
     description: 'Build and manage prompts for your SaaS application',
-    images: ['/images/PromptBuilder.png'],
+    images: ['https://prompt.wavyr.com/images/PromptBuilder.png'],
   }
 }
 
