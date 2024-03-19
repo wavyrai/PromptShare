@@ -14,9 +14,7 @@ You can customize the existing prompts or add new ones by editing the `presets.j
 
 ### Using Wavyr Prototyper
 
-This application was created using the [Wavyr Prototyper](https://wavyr.com/prototyper), a powerful tool for prototyping and testing AI interactions. Wavyr Prototyper allows you to quickly iterate on prompt designs and test them in real-time, ensuring that your prompts are effective and user-friendly.
-
-To incorporate prompts from this repository into your Wavyr prototypes, simply copy the prompt details from the `presets.jsx` file and paste them into the Wavyr Prototyper interface. This will allow you to see how your prompts perform in a live environment and make adjustments as needed.
+The design of the prompt builder was created using the [Wavyr Prototyper](https://wavyr.com/prototyper), a powerful tool for prototyping and testing AI interactions. Wavyr Prototyper allows you to quickly iterate on prompt designs and test them in real-time, ensuring that your designs are effective and user-friendly.
 
 ## Stack
 

@@ -327,8 +327,8 @@ export default function Home() {
                 )}
               />
               <Button
-                variant="outline" // Make sure this is a button, not a submit
-                onClick={() => form.reset()} // Reset form fields to initial values
+                variant="outline"
+                onClick={() => form.reset()} 
                 className="p-4"
                 href="http://localhost:3000"
               >
@@ -373,7 +373,7 @@ export default function Home() {
                     'bg-gradient-to-b from-gray-700 to-black border-black text-white hover:from-gray-600 hover:to-gray-800 ' +
                     'dark:bg-gradient-to-b dark:from-gray-700 dark:to-black dark:border-gray-800 dark:text-white dark:hover:from-gray-600 dark:hover:to-gray-800 ' +
                     'group relative z-10 mt-5 ' +
-                    'absolute bottom-0 left-4 right-4 mb-4 mx-auto' // Added styles for absolute positioning
+                    'absolute bottom-0 left-4 right-4 mb-4 mx-auto'
                   }
                   variant={'custom'}
                   size={'md'}
