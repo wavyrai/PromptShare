@@ -1,6 +1,7 @@
 import './globals.css'
 import { Toaster } from "@/components/ui/sonner"
 import Fonts from '@/components/fonts'
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'SaaS Prompt Builder',
@@ -14,15 +15,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-      <html lang="en">
-       
+      <html lang="en"> 
         <head>
           <Fonts />
-     
           <meta name="robots" content="noindex" />
-
         </head>
-        <body className="bg-gray-100">{children}</body>
+        <body className="bg-gray-100">{children}
+        <Analytics />
+        </body>
         <Toaster richColors position="top-right"/>
       </html>
   
