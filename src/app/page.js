@@ -29,7 +29,6 @@ import  LogoImage from "@/components/logoImage"
 import Image from "next/image"
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog"
 import { Command, CommandDialog, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem } from '@/components/ui/command'
 
 export default function Home() {
@@ -119,8 +118,8 @@ export default function Home() {
         
         <div className="flex py-1.5 px-1 items-center justify-between">
         <div className={'flex items-center space-x-2'}>
-            <Image src='/images/wavyr-logo.svg' height={25} width={25} alt="Wavyr Logo" />
-            <h1 className="font-semibold text-md leading-7 text-black">SaaS Prompt Builder</h1>
+            <Image src='/images/wavyr-logo.svg' height={20} width={20} alt="Wavyr Logo" />
+            <h1 className="font-semibold text-md leading-7 text-black">Prompt Builder</h1>
           </div>
           </div>
 
@@ -398,7 +397,7 @@ export default function Home() {
           <LogoImage className="h-8 w-8"></LogoImage>
         </div>
         <div>
-          <a href="https://getaprototype.com" className='cursor-pointer duration-300 transition-all text-white hover:text-blue-500'>
+          <a href="https://www.getaprototype.com" className='cursor-pointer duration-300 transition-all text-white hover:text-blue-500'>
             <p>Generated with</p>
             <p> Wavyr Prototyper</p>
           </a>
